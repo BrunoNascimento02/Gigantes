@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/agendamento.css">
+    <title>Agendamento</title>
+</head>
+<body>
+
+    <main>
+        <div class="wallpaper"> 
+        </div>
+        <div class="titulo">
+            <h1>AGENDAMENTO</h1>
+        </div>
+        <section>
+            <article>
+                <h1>Aviso Importante !! 
+                <br> <br>
+                Se possivel chegar 20 minutos antes do corte</h1>
+            </article>
+        </section>
+
+        <form action="osjdajo.php" method="post" required>
+            <select name="pacote" id="ipacote" required autofocus>
+                <option value="" >Selecione uma opção</option>
+                <optgroup></optgroup>
+                <optgroup label="Cortes Masculinos">
+                <optgroup></optgroup>
+                <option value="tingir">Pintar o cabelo = R$ 25,00</option>
+                <option value="cabbarb">Cabelo + Barba = R$ 35,00</option>
+                <option value="barb">Barba = R$ 10,00</option>
+                <optgroup></optgroup>
+                </optgroup>
+
+                <optgroup label="Cortes Feminino">
+                <optgroup></optgroup>
+                <option value="Bab">Babyliss = R$ 40,00</option>
+                <option value="somb">Sobrancelha = R$ 35,00</option>
+                <option value="cab-fem">Pé Unha = R$ 16,00</option>
+                <option value="unh">Unha mão = R$ 16,00</option>
+                </optgroup>
+            </select>
+        </form>
+        <form action="nome.php">
+            <div class="nome01">
+
+                <label for="inome"></label>
+                <input type="text" name="nome" id="inome" minlength="5" required placeholder="Digite seu nome Completo">
+            </div>
+            <div class="num01">
+                <label for="inum"></label>
+                <input type="number" name="num" id="inum" minlength="10" maxlength="20" required placeholder="Digite seu numero incuindo DDD">
+            </div>
+            <div class="data">
+                <label for="idate"></label>
+                <input type="date" name="data" id="idata" required>
+            </div>
+            <div class="email">
+                <label for="iemail"></label>
+                <input type="email" name="email" id="iemail" placeholder="Digite seu email completo" required>
+
+                <picture class="wallpaper">
+                    <img src="../imagens/IMG-20221226-WA0001.jpg" alt="">
+                </picture>
+
+                <nav>
+                    <a href="../index.html">Voltar</a>
+                    <input type="submit" value="Enviar" class="submit">
+                </nav>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

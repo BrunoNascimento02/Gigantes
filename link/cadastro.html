@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/cadastro.css">
+    <title>cadastro</title>
+</head>
+<body>
+    <main>
+        <div class="wallpaper">
+            <img src="../imagens/IMG-20221226-WA0001.jpg" alt="">
+        </div>
+        <div class="titulo">
+            <h1>Cadastramento</h1>
+        </div>
+        <form action="" method="post" autocomplete="on">
+            <div>
+                <label for="inome"></label>
+                <input type="text" name="nome" id="inome" required minlength="4" placeholder="Seu nome / Apelido">
+            </div>
+            <div>
+                <label for="ipass"></label>
+                <input type="password" name="pass" id="ipass" placeholder="Senha minimo 8" required minlength="6">
+            </div>
+            <div>
+                <label for="ipassconfirm"></label>
+                <input type="password" name="passconfirm" id="ipassconfirm" required minlength="8" placeholder="Repita a Senha">
+            </div>
+            <div>
+                <label for="imail"></label>
+                <input type="email" name="mail" id="imail" required placeholder="Digite seu Email completo">
+            </div>
+            <div class="enviar">
+                <input type="submit" value="Cadastrar">
+                <input type="reset" value="Resetar">
+            </div>
+        </form>
+        <nav>
+            <a href="../link/login.html">Voltar</a>
+        </nav>
+    </main>
+</body>
+</html>

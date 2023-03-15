@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+:root{
+    --cor01:rgb(247, 144, 96);
+    --cor02:rgb(167, 82, 82);
+}
+html::-webkit-scrollbar{
+    display: none;
+    
+}
+
+html{
+    background-color: brown;
+}
+
+main{
+    background-color:white ;
+    height: 670px;
+    width: 360px;
+    position: absolute;
+    border-radius: 50px;
+    
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+
+.titulo{
+    text-align: center;
+    padding: 4px;
+    color: var(--cor01);
+    margin: 10px 0px;
+}
+
+
+main > section > article > h1{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 1.0em;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+
+div > nav{
+    text-align: center;
+    margin: 20px;
+}
+
+div > nav >a {
+    text-decoration: none;
+    color:white;
+    background-color: var(--cor02);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+    padding: 11px;
+}
+
+div > nav > a:hover{
+    color: white;
+    font-size: 1.6em;
+    transition: 500ms;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.submit{
+    text-decoration: none;
+    color: rgb(250, 253, 249);
+    background-color:rgb(37, 243, 37);
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit:hover{
+    color: white;
+    font-size: 1.6em;
+    transition: 500ms;
+    border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+main > form {
+    text-align: center;
+    padding: 6px 0px;
+}
+
+main > form > select{
+    text-align: center;
+    font-size: 1.3em;
+    width: 332px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: var(--cor01);
+    color: white;
+}
+
+.nome01>input{
+    border-radius: 10px;
+    padding: 10px;
+    height: 26px;
+    width: 310px;
+    background-color: var(--cor01);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.nome01>input::-webkit-input-placeholder{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.num01 > input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    height: 26px;
+    width: 310px;
+    background-color: var(--cor01);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.num01 > input::-webkit-input-placeholder{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.data > input{
+    border-radius: 10px;
+    padding: 10px;
+    height: 26px;
+    width: 310px;
+    background-color: var(--cor01);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.email > input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+    height: 26px;
+    width: 310px;
+    background-color: var(--cor01);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.322);
+}
+
+.email > input::-webkit-input-placeholder{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.wallpaper>img{
+    height: 90px;
+    width: 140px;
+}

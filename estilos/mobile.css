@@ -61,7 +61,7 @@ main{
 
 .botao0 > .botao1{
     background-color: var(--cor01);
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 16px;
     font-size: .5em;
@@ -70,7 +70,7 @@ main{
 }
 
 .botao0 > .botao1:hover{
-    color:black;
+    color:rgb(105, 102, 102);
     transition: 700ms;
     font-weight: bolder;
 }
@@ -99,7 +99,7 @@ menu > ul > li > a {
 }
 
 menu > ul > li > a:hover {
-    background-color: var(--cor02);
+    background-color:rgb(107, 100, 100);
     font-weight: bold;
 }
 
